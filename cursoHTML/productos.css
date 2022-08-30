@@ -4,19 +4,24 @@ body{
 
 header{
     background-color: rgb(134, 220, 220);
-    padding: 20px 0;
+    padding: 20px 0;    
 }
 
 .caja{
-    max-width: 940px;
+    /* max-width: 940px;
     position: relative;
-    margin: 0 auto;    
+    margin: 0 auto;     */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 nav{
-    position: absolute;
+    /* position: absolute; */
     top: 110px;
-    right: 20px;
+    /* right: 20px; */
 }
 
 nav li{
