@@ -4,6 +4,19 @@ body{
 
 header{
     background-color: rgb(134, 220, 220);
+    padding: 20px 0;
+}
+
+.caja{
+    max-width: 940px;
+    position: relative;
+    margin: 0 auto;    
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 20px;
 }
 
 nav li{
