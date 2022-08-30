@@ -1,0 +1,38 @@
+body{
+    background-color:azure;
+}
+
+#banner{
+    width: 100%;
+}
+
+.titulo-principal {
+    padding-left: 30px;
+}
+
+#mision{
+    font-size: 18px;
+}
+
+p{
+    text-align: center;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.items{
+    font-style: italic;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
