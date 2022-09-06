@@ -36,3 +36,44 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
+
+.productos{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.imagen-productos{
+    max-width: 100%;
+}
+
+.productos li{
+    display: inline-block;
+    margin: 40px 1.5%;
+    text-align: center;
+    vertical-align: top;
+    background: white;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 300px;
+    justify-content: center;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
